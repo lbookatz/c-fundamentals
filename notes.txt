@@ -6,3 +6,4 @@ to open visual studi code in the folder I'm in
 code .
 
 dotnet run 
+

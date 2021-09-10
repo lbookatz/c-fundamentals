@@ -11,7 +11,7 @@ public class Book
         public Book(string name)
         {
             grades = new List<double>();
-            this.name = name;
+            this.Name = name;
         }
         public void AddGrade(double grade)
         {
@@ -49,6 +49,7 @@ public class Book
             Console.WriteLine($"The highest grade is {stats.high :N1}");
             Console.WriteLine($"The lowest grade is {stats.low:N1}");
         }
-        private List<double> grades;
-        private string name;
+        public List<double> grades;
+        //public members by convention uppercase
+        public string Name;
     }
